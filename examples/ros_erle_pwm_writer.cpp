@@ -23,7 +23,7 @@ int main(int argc, char **argv)
   msg.PWM_7 = atoi(argv[7]);
   msg.PWM_8 = atoi(argv[8]);
 
-//  ros::Rate loop_rate(10);
+  ros::Rate loop_rate(10);
 
   int count = 0;
   while (ros::ok()){
