@@ -11,7 +11,7 @@ int main(int argc, char **argv)
   }
 
   ros::NodeHandle n;
-  ros::Publisher led_pub = n.advertise<ros_erle_pwm::pwm>("statusled", 1000);
+  ros::Publisher led_pub = n.advertise<ros_erle_pwm::pwm>("pwm", 1000);
   ros_erle_pwm::pwm msg;
 
   msg.PWM_1 = atoi(argv[1]);
