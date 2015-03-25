@@ -34,7 +34,7 @@ or
 cd ~/ros_catkin_ws/src
 
 wstool init src 
-set -t src ros_erle_statusled --git https://github.com/erlerobot/ros-hydro-erle-statusled
+set -t src ros_erle_statusled --git https://github.com/erlerobot/ros_erle_statusled
 wstool update -t src
 ```
 Then use regular `catkin_make_isolated` for build and install.
