@@ -23,7 +23,7 @@ rosrun ros_erle_pwm ros_erle_pwm_main
 cd ~/ros_catkin_ws/src
 git clone https://github.com/ros_erle_pwm
 cd ..
-catkin_make_isolate --install -DCMAKE_BUILD_TYPE=Release --pkg ros_erle_pwm
+catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --pkg ros_erle_pwm
 source install_isolated/setup.bash
 ```
 or 
