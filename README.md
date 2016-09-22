@@ -1,6 +1,8 @@
 # ros-hydro-erle-pwm
 
 
+**NOTE:** this package only works with Erle-Brainv1.1.
+
 Support forums and chats
 ------------------------
 
